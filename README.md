@@ -1,9 +1,24 @@
 # بلیت ورزشگاه آزادی — Azadi Stadium ticket booking (demo)
 
+![Azadi Stadium ticket booking on desktop and mobile](docs/media/cover.jpg)
+
 A Persian (RTL) football ticket-booking prototype for Tehran's Azadi Stadium. It uses real
 stadium photography instead of a 3D render.
 
+**Live demo:** https://soccer-stadium-ticket-reservation.vercel.app
+
 Flow: **stadium map → seat map → real view from the seat → ticket confirmation**.
+
+## Demo
+
+| Desktop | Mobile |
+|---|---|
+| <img src="docs/media/demo-desktop.gif" alt="Desktop booking journey" width="560"> | <img src="docs/media/demo-mobile.gif" alt="Mobile booking journey" width="220"> |
+
+![The four mobile steps: choose a section, choose a seat, real view, confirm](docs/media/mobile-screens.jpg)
+
+The demo recordings come from `scripts/record-demo.mjs`, which drives the real app in Chrome
+(`node scripts/record-demo.mjs desktop|mobile <outDir>`, with the dev server running).
 
 ## Run
 
