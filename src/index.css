@@ -1261,6 +1261,29 @@ button.view-thumb:hover img {
   inset: 0;
   background: rgba(11, 12, 14, 0.82);
 }
+.checkout--view .checkout__backdrop::after {
+  background: rgba(11, 12, 14, 0.3);
+}
+.checkout--view .checkout__backdrop img {
+  filter: none;
+}
+.checkout__pill {
+  position: absolute;
+  top: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+/* Ticket inside the desktop side panel: one step lighter than the panel. */
+.panel .ticket__top,
+.panel .ticket__grid {
+  background: var(--surface-3);
+}
+.panel .ticket {
+  filter: none;
+}
+.panel .ticket-printer {
+  margin-top: 4px;
+}
 .checkout__inner {
   position: relative;
   max-width: 520px;

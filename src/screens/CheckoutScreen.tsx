@@ -4,7 +4,7 @@ import { ActionBar, Button, Layout } from '../components/Layout'
 import { MiniStadium } from '../components/StadiumMap'
 import { CATEGORIES, MATCH, matchDate, matchTime } from '../data/match'
 import { stateOf, type Seat } from '../data/seats'
-import { STAND_LABEL, TIER_LABEL, ZONE_LABEL, sectionPrice, type Section, type Stand } from '../data/stadium'
+import { TIER_LABEL, ZONE_LABEL, sectionPrice, type Section, type Stand } from '../data/stadium'
 import { fa, faText, toman } from '../lib/format'
 import { go } from '../lib/router'
 import { useIsDesktop } from '../lib/useMediaQuery'
@@ -147,28 +147,30 @@ export function CheckoutScreen({ section, seat }: { section: Section; seat: Seat
     )
 
   const vp = viewpointFor(section, seat.row)
-  const canvas = (
+  // Desktop: the canvas shows the real view from the seat; the ticket lives in the side panel.
+  const canvas = desktop ? (
+    <div className="checkout checkout--view">
+      <div className="checkout__backdrop" aria-hidden="true">
+        <img src={fallbackSrc(vp.id)} alt="" style={{ backgroundImage: `url(${photoMeta(vp.id).placeholder})` }} />
+      </div>
+      <div className="checkout__pill view-pill">
+        <span className="view-pill__dot" />
+        نما از جایگاه {fa(section.number)} · ردیف {fa(seat.row)} · صندلی {fa(seat.number)}
+      </div>
+    </div>
+  ) : (
     <div className="checkout">
-      {desktop && (
-        <div className="checkout__backdrop" aria-hidden="true">
-          <img src={fallbackSrc(vp.id)} alt="" style={{ backgroundImage: `url(${photoMeta(vp.id).placeholder})` }} />
-        </div>
-      )}
       <div className="checkout__inner">
         <h2 className="checkout__title">{status === 'done' ? 'بلیت شما' : 'تأیید رزرو'}</h2>
         <Ticket section={section} seat={seat} status={status} code={code} />
-        {!desktop && (
-          <>
-            {status === 'done' ? done : breakdown}
-            {unavailable && <p className="notice notice--warn">این صندلی دیگر خالی نیست. لطفاً صندلی دیگری انتخاب کنید.</p>}
-            {notice}
-            {status === 'review' && !unavailable && (
-              <button className="link-btn link-btn--start" onClick={() => go({ name: 'seats', section: section.id, seat: seat.id })}>
-                <Icon name="seat" size={18} />
-                تغییر صندلی
-              </button>
-            )}
-          </>
+        {status === 'done' ? done : breakdown}
+        {unavailable && <p className="notice notice--warn">این صندلی دیگر خالی نیست. لطفاً صندلی دیگری انتخاب کنید.</p>}
+        {notice}
+        {status === 'review' && !unavailable && (
+          <button className="link-btn link-btn--start" onClick={() => go({ name: 'seats', section: section.id, seat: seat.id })}>
+            <Icon name="seat" size={18} />
+            تغییر صندلی
+          </button>
         )}
       </div>
     </div>
@@ -177,10 +179,8 @@ export function CheckoutScreen({ section, seat }: { section: Section; seat: Seat
   const panel = (
     <>
       <div className="panel__section">
-        <h2 className="panel__title">{status === 'done' ? 'رزرو آزمایشی ثبت شد' : 'تأیید رزرو'}</h2>
-        <p className="muted">
-          جایگاه {fa(section.number)} · ردیف {fa(seat.row)} · صندلی {fa(seat.number)} · {TIER_LABEL[section.tier]} · {STAND_LABEL[section.stand]}
-        </p>
+        <h2 className="panel__title">{status === 'done' ? 'بلیت شما' : 'تأیید رزرو'}</h2>
+        <Ticket section={section} seat={seat} status={status} code={code} />
       </div>
       <div className="panel__section">{status === 'done' ? done : breakdown}</div>
       {unavailable && <p className="notice notice--warn">این صندلی دیگر خالی نیست. لطفاً صندلی دیگری انتخاب کنید.</p>}
