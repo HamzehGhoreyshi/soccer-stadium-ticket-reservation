@@ -724,7 +724,7 @@ img {
 .seat-stage__caption {
   position: absolute;
   bottom: 12px;
-  inset-inline: 72px 16px;
+  inset-inline: 16px 72px;
   display: grid;
   gap: 2px;
   pointer-events: none;
