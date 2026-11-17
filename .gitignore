@@ -1,0 +1,33 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Ravi is a commercial font: kept local, not published in the public repo.
+# Copy RaviFaNum-*.otf into assets-src/ and run `npm run assets fonts` (see README).
+public/fonts/
+assets-src/*.otf
+# Original photos are re-downloadable with `npm run photos:fetch` (credits.json stays).
+assets-src/photos/*.jpg
+.vercel
+.claude/

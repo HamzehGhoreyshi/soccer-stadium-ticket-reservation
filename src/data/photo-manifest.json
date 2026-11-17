@@ -1,0 +1,141 @@
+{
+  "upper-curve": {
+    "width": 4000,
+    "height": 1800,
+    "widths": [
+      640,
+      1280,
+      1920,
+      2560
+    ],
+    "placeholder": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACQAwCdASoYAAsALrV2u12jqampiYC0SxgE6AIfCjmMbCr5MAaAAP7ne99V2o8xwzkuJFawtQQl6WAN11kNYRtWjcQ5ViIK65OM5bEmAAA=",
+    "credit": {
+      "title": "Azadi Stadium - Esteghlal FC vs Naft Masjed Soleyman FC, 30 May 2022 - 01.jpg",
+      "author": "Maometto",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Azadi_Stadium_-_Esteghlal_FC_vs_Naft_Masjed_Soleyman_FC,_30_May_2022_-_01.jpg"
+    }
+  },
+  "upper-corner": {
+    "width": 4000,
+    "height": 1800,
+    "widths": [
+      640,
+      1280,
+      1920,
+      2560
+    ],
+    "placeholder": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAACQAwCdASoYAAsALrV2u12jqampiYC0SgC7AEPhSsSdtKdxobCAAP7F/Sn8o8yW5Xg2Rk8kUSmpjSlswAMXgBMyKHziQDWdAgeyEV1ViuzAAA==",
+    "credit": {
+      "title": "Azadi Stadium - Esteghlal FC vs Naft Masjed Soleyman FC, 30 May 2022 - 02.jpg",
+      "author": "Maometto",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Azadi_Stadium_-_Esteghlal_FC_vs_Naft_Masjed_Soleyman_FC,_30_May_2022_-_02.jpg"
+    }
+  },
+  "upper-top-pano": {
+    "width": 11695,
+    "height": 1964,
+    "widths": [
+      3335,
+      5359,
+      7146
+    ],
+    "placeholder": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAACQAwCdASoYAAQAPu1orU2ppqSiMAgBMB2JZwAAW/Cg4KpWxahQAPulfe68TbkysOpi/QSFh52X8k7k4KLb7gAA",
+    "credit": {
+      "title": "Azadi Stadium - Esteghlal FC vs Naft Masjed Soleyman FC, 30 May 2022 - 04.jpg",
+      "author": "Maometto",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Azadi_Stadium_-_Esteghlal_FC_vs_Naft_Masjed_Soleyman_FC,_30_May_2022_-_04.jpg"
+    }
+  },
+  "end-lower-pano": {
+    "width": 9355,
+    "height": 2936,
+    "widths": [
+      1784,
+      2868,
+      3824
+    ],
+    "placeholder": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACQAwCdASoYAAgALrV2u12jqampiYC0SygGN6IeC0bcVnAGqTYQAP63eZhsMJPYQZdpaKT71krg8/UpfpyCeWSeEz6v5x6WgeRQM1QjuAA=",
+    "credit": {
+      "title": "Persepolis V.S. Al-Nasr-9 April 2015 Azadi Stadium.JPG",
+      "author": "Arashk rp2",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Persepolis_V.S._Al-Nasr-9_April_2015_Azadi_Stadium.JPG"
+    }
+  },
+  "lower-side": {
+    "width": 3552,
+    "height": 2224,
+    "widths": [
+      640,
+      1280,
+      1920,
+      2560
+    ],
+    "placeholder": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAQBACdASoYAA8APu1mqk2ppaQiMAgBMB2JYwC7ACHcbbzCVCIKZVWPAAD+8dVG1tZt8E4GkkxLy8dQDFFyHtEH+penFBo2EKSmtEenf1W7l71dprdwAA==",
+    "credit": {
+      "title": "Esteghlal vs Bargh football match.jpg",
+      "author": "Vathlu",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Esteghlal_vs_Bargh_football_match.jpg"
+    }
+  },
+  "lower-corner": {
+    "width": 2560,
+    "height": 1920,
+    "widths": [
+      640,
+      1280,
+      1920,
+      2560
+    ],
+    "placeholder": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAAAwBQCdASoYABIAPu1qqk8ppiOiMBgIATAdiWUAzfwQ7kRGmKzaAm5wvYhYoGaTsvqiAAD+thqhVpWWArDd/Sf5yD0tywsSmrBZpfSStP3DSro82XbGOvnxOgIloCnnK8p+AI5JIIfwN7jaPNvohkIU2kVjrNgAAAA=",
+    "credit": {
+      "title": "Esteghlal vs Damash 1392 02 20.jpg",
+      "author": "Vviki at Persian Wikipedia",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "page": "https://commons.wikimedia.org/wiki/File:Esteghlal_vs_Damash_1392_02_20.jpg"
+    }
+  },
+  "lower-front": {
+    "width": 1600,
+    "height": 1200,
+    "widths": [
+      640,
+      1280,
+      1600
+    ],
+    "placeholder": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAABwBACdASoYABIAPu1wr1MppiQiqAgBMB2JYwDI1BEa/ikxzTyGsVSqOnwKoAD9418Xe7IBNhg5z9KVQaVYVCbcB1Kr9M6YXn7rl+QxWSyGi6eK9ArZUgIW3W4YPAAdtUQVLeO4bevcotWSjOBoDkl6OaAAAA==",
+    "credit": {
+      "title": "Iran Korea 2010 FIFA World Cup qualification.jpg",
+      "author": "Pouyana",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "page": "https://commons.wikimedia.org/wiki/File:Iran_Korea_2010_FIFA_World_Cup_qualification.jpg"
+    }
+  },
+  "end-elevated": {
+    "width": 1280,
+    "height": 960,
+    "widths": [
+      640,
+      1280
+    ],
+    "placeholder": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAAAQBQCdASoYABIAPu1eq02ppSQiMBgMATAdiUAW31oYNTI53+EAIMs39IUKeUdQFiagAP7I9vZ3+vbwDN5KwxK+Cv/MDw4ofod0WYTbpmqd4DRW/vzcRR/DYrehr6ImlwMouUejRGvSfPmFbtu8gAAA",
+    "credit": {
+      "title": "ورزشگاه آزادی در سایه.JPG",
+      "author": "ماسرا",
+      "license": "Public domain",
+      "licenseUrl": "",
+      "page": "https://commons.wikimedia.org/wiki/File:%D9%88%D8%B1%D8%B2%D8%B4%DA%AF%D8%A7%D9%87_%D8%A2%D8%B2%D8%A7%D8%AF%DB%8C_%D8%AF%D8%B1_%D8%B3%D8%A7%DB%8C%D9%87.JPG"
+    }
+  }
+}
