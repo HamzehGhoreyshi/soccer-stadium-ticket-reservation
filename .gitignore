@@ -31,3 +31,4 @@ assets-src/*.otf
 assets-src/photos/*.jpg
 .vercel
 .claude/
+.env*
