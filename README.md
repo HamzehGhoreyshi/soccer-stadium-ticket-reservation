@@ -34,7 +34,7 @@ landscape map).
   photo and in the info dialog. Source files: `assets-src/photos/` (`npm run photos:fetch`,
   then `npm run assets`).
 - **Ravi is a commercial font and is not in this repo.** If you own it, copy `RaviFaNum-{Regular,Medium,SemiBold,Bold}.otf`
-  into `assets-src/`, then run `npm run assets fonts`. Without it, the app falls back to Tahoma or the system font.
+  into `assets-src/`, then run `npm run assets -- fonts`. Without it, the app falls back to Tahoma or the system font.
 
 ## Honesty rules built in
 

@@ -24,7 +24,7 @@ dist-ssr
 *.sw?
 
 # Ravi is a commercial font: kept local, not published in the public repo.
-# Copy RaviFaNum-*.otf into assets-src/ and run `npm run assets fonts` (see README).
+# Copy RaviFaNum-*.otf into assets-src/ and run `npm run assets -- fonts` (see README).
 public/fonts/
 assets-src/*.otf
 # Original photos are re-downloadable with `npm run photos:fetch` (credits.json stays).
